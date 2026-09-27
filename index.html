@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YatraBus Travels - Online Bus Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <p>📞 +91 98765 43210 | ✉️ info@yatrabus.com | <a href="about.html">About Us</a></p>
+        <p>
+            <a href="agent-login.html">Agent Login</a> |
+            <a href="login.html">Customer Login</a>
+        </p>
+    </div>
+
+     
+    <header>
+        <div class="header-box">
+            <h2 class="logo">YatraBus Travels</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="drop-link">Manage Ticket</a>
+                    <div class="dropdown-box">
+                        <a href="print-ticket.html">Print Ticket</a>
+                        <a href="cancel-ticket.html">Cancel Ticket</a>
+                        <a href="download-ticket.html">Download Ticket</a>
+                        <a href="reschedule-ticket.html">Reschedule Ticket</a>
+                    </div>
+                </div>
+                <a href="track-bus.html">Track Bus</a>
+                <a href="#contact">Contact</a>
+                <a href="signup.html" class="btn btn-small">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero hero-image video-hero">
+        <video class="bg-video" autoplay muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=60">
+            <source src="https://videos.pexels.com/video-files/5058323/5058323-hd_1920_1080_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="video-dark">
+            <h1>Online Bus Ticket Booking</h1><br>
+            <p>Safe, comfortable and affordable bus services to different parts of India.</p>
+        </div>
+    </section>
+
+    <section class="booking-section">
+        <div class="booking-box">
+            <h2>BUS BOOKING</h2>
+            <form action="#">
+                <div class="booking-form">
+                    <div class="booking-field">
+                        <label>From</label><br>
+                        <select required>
+                            <option value="">Select City</option>
+                            <option>Chennai</option>
+                            <option>Bangalore</option>
+                            <option>Coimbatore</option>
+                            <option>Madurai</option>
+                            <option>Hyderabad</option>
+                            <option>Pollachi</option>
+                        </select>
+                    </div>
+                    <div class="booking-field">
+                        <label>To</label><br>
+                        <select required>
+                            <option value="">Select City</option>
+                            <option>Chennai</option>
+                            <option>Bangalore</option>
+                            <option>Coimbatore</option>
+                            <option>Madurai</option>
+                            <option>Hyderabad</option>
+                            <option>Pollachi</option>
+                        </select>
+                    </div>
+                    <div class="booking-field">
+                        <label>Journey Date</label><br>
+                        <input type="date" required>
+                    </div>
+                    <div class="booking-field">
+                        <label>Return Date</label><br>
+                        <input type="date">
+                    </div>
+                    <div class="booking-field">
+                        <label>&nbsp;</label><br>
+                        <button type="submit" class="btn btn-primary">Search Buses</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section bg-about">
+        <h2>YatraBus Travels</h2>
+        <p class="subtitle">YatraBus Travels providing travel solutions with best quality buses and experienced drivers. Important routes include Chennai to Bangalore and Bangalore to Coimbatore. Book tickets online in few easy steps.</p>
+        <div class="card-row">
+            <div class="card small-card">
+                <h3>🛡️ Safe and Secure</h3>
+                <p>GPS buses and verified drivers.</p>
+            </div>
+            <div class="card small-card">
+                <h3>📞 Customer Service</h3>
+                <p>24x7 support for all passengers.</p>
+            </div>
+            <div class="card small-card">
+                <h3>🚪 Emergency Exit</h3>
+                <p>Safety doors and fire safety.</p>
+            </div>
+            <div class="card small-card">
+                <h3>⭐ Experience and Trust</h3>
+                <p>10+ years of happy journeys.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section grey-bg bg-amenities">
+        <h2>Amenities We Provide</h2>
+        <div class="card-row">
+            <div class="card small-card"><h3>💡</h3><p>Reading Lamp</p></div>
+            <div class="card small-card"><h3>🔌</h3><p>Charging Point</p></div>
+            <div class="card small-card"><h3>🛏️</h3><p>Blankets</p></div>
+            <div class="card small-card"><h3>💧</h3><p>Water Bottle</p></div>
+            <div class="card small-card"><h3>📶</h3><p>Personal Wifi</p></div>
+            <div class="card small-card"><h3>🎬</h3><p>Entertainment</p></div>
+        </div>
+    </section>
+
+    <section id="services" class="section bg-services">
+        <h2>Services We Provide</h2>
+        <div class="card-row">
+            <div class="card">
+                <h3>Fast Booking</h3>
+                <p>Buy tickets online from home or on the go.</p>
+                <a href="signup.html" class="btn btn-primary">Book Now</a>
+            </div>
+            <div class="card">
+                <h3>Stress Free</h3>
+                <p>Simple and stress free bus travel booking.</p>
+                <a href="#tours" class="btn btn-primary">View Tours</a>
+            </div>
+            <div class="card">
+                <h3>Spend Less</h3>
+                <p>Affordable prices and best buses in one place.</p>
+                <a href="#routes" class="btn btn-primary">See Routes</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="routes" class="section grey-bg video-band">
+        <video class="bg-video" autoplay muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=600&q=60">
+            <source src="https://videos.pexels.com/video-files/5533766/5533766-hd_1920_1080_30fps.mp4" type="video/mp4">
+        </video>
+        <div class="video-dark">
+        <h2>Top Routes We Provide</h2>
+        <p class="subtitle">Experience safe and comfortable journeys with us</p>
+        <div class="card-row">
+            <div class="card route-card">
+                <img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=60" alt="Chennai">
+                <h3>CHENNAI</h3>
+                <p>Daily buses to Bangalore, Coimbatore</p>
+                <p class="price">From Rs. 599</p>
+                <a href="signup.html" class="btn btn-secondary">Book Now</a>
+            </div>
+            <div class="card route-card">
+                <img src="https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=600&q=60" alt="Bangalore">
+                <h3>BANGALORE</h3>
+                <p>Daily buses to Chennai, Pollachi</p>
+                <p class="price">From Rs. 799</p>
+                <a href="signup.html" class="btn btn-secondary">Book Now</a>
+            </div>
+            <div class="card route-card">
+                <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=600&q=60" alt="Pollachi">
+                <h3>POLLACHI</h3>
+                <p>Daily buses to Bangalore, Chennai</p>
+                <p class="price">From Rs. 699</p>
+                <a href="signup.html" class="btn btn-secondary">Book Now</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="tours" class="section video-band">
+        <video class="bg-video" autoplay muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=400&q=60">
+            <source src="https://videos.pexels.com/video-files/2519660/2519660-hd_1920_1080_24fps.mp4" type="video/mp4">
+        </video>
+        <div class="video-dark">
+        <h2>Popular Tour Packages</h2>
+        <p class="subtitle">Bus + hotel + sightseeing included</p>
+        <div class="card-row">
+            <div class="card">
+                <h3>Kerala Tour</h3>
+                <p>3 Days / 2 Nights</p>
+                <p>Kochi - Munnar - Alleppey</p>
+                <p class="price">Rs. 6,999 / person</p>
+                <a href="signup.html" class="btn btn-secondary">View Details</a>
+            </div>
+            <div class="card">
+                <h3>Goa Tour</h3>
+                <p>4 Days / 3 Nights</p>
+                <p>Beach + Church + Cruise</p>
+                <p class="price">Rs. 8,999 / person</p>
+                <a href="signup.html" class="btn btn-secondary">View Details</a>
+            </div>
+            <div class="card">
+                <h3>Ooty - Kodaikanal</h3>
+                <p>2 Days / 1 Night</p>
+                <p>Weekend special package</p>
+                <p class="price">Rs. 3,499 / person</p>
+                <a href="signup.html" class="btn btn-secondary">View Details</a>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="section grey-bg video-band">
+        <video class="bg-video" autoplay muted loop playsinline preload="metadata" poster="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=400&q=60">
+            <source src="https://videos.pexels.com/video-files/1918465/1918465-hd_1920_1080_24fps.mp4" type="video/mp4">
+        </video>
+        <div class="video-dark">
+        <h2>Our Gallery</h2>
+        <p class="subtitle">Choose the Destination Just Right For Your Travel</p>
+        <div class="gallery-row">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=60" alt="Goa Beach">
+            <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=400&q=60" alt="Kerala">
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=400&q=60" alt="Taj Mahal">
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=400&q=60" alt="India Travel">
+            <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=400&q=60" alt="Bus Road">
+            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=400&q=60" alt="Bus">
+        </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Our Facilities</h2>
+        <div class="card-row">
+            <div class="card small-card"><h3>⭐</h3><p>Experience and Trust</p></div>
+            <div class="card small-card"><h3>😊</h3><p>Happy Customers</p></div>
+            <div class="card small-card"><h3>🚌</h3><p>Decades of Services</p></div>
+            <div class="card small-card"><h3>💯</h3><p>Customer Satisfaction</p></div>
+        </div>
+        <h2 style="margin-top:30px;">Covid Safety Protocols</h2>
+        <div class="card-row">
+            <div class="card small-card"><h3>🌡️</h3><p>Temperature Check</p></div>
+            <div class="card small-card"><h3>😷</h3><p>Wear Mask</p></div>
+            <div class="card small-card"><h3>🧴</h3><p>Hand Sanitizers</p></div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h3>YatraBus Travels</h3>
+                <p>Book bus tickets online in website and mobile with few easy steps. Go to My Bookings to manage.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Manage Ticket</h3>
+                <a href="print-ticket.html">Print Ticket</a><br>
+                <a href="download-ticket.html">Download Ticket</a><br>
+                <a href="cancel-ticket.html">Cancel Ticket</a><br>
+                <a href="reschedule-ticket.html">Change Travel Date</a><br>
+                <a href="track-bus.html">Track Your Bus</a>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="#">FAQ</a><br>
+                <a href="#">Terms & Conditions</a><br>
+                <a href="#">Feedback</a><br>
+                <a href="#contact">Contact</a>  
+            </div>
+            <div class="footer-col">
+                <h3>Head Office</h3>
+                <p>YatraBus Travels,<br>12 Main Road,<br>Chennai - 600001.</p>
+                <p>+91 98765 43210</p>
+                <p>info@yatrabus.com</p>
+            </div>
+        </div>
+        <p class="copyright">© 2026 YatraBus Travels. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
